@@ -27,3 +27,49 @@ body {
 .sub-text:hover {
     color: #F26419;
 }
+
+.side-menu-button {
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    border: 0;
+    background-color: transparent;
+}
+
+.side-menu-button:hover {
+    cursor: pointer;
+}
+
+.menu-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.669);
+    width: 100%;
+    height: 100%;
+}
+
+.menu-div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    z-index: 1;
+}
+
+.menu-close {
+    margin: 0.5rem;
+    display: flex;
+    margin-left: auto;
+    border: 0;
+    background-color: transparent;
+}
+
+.menu-close:hover {
+    cursor: pointer;
+}
