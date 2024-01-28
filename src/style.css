@@ -60,6 +60,7 @@ body {
     width: 70%;
     height: 100%;
     z-index: 1;
+    color: black;
 }
 
 .menu-close {
@@ -72,4 +73,16 @@ body {
 
 .menu-close:hover {
     cursor: pointer;
+}
+
+.menu-piece-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 1rem;
+    border: 0.5px solid rgb(235, 235, 235)
+}
+
+.menu-piece-div:hover {
+    background-color: rgb(224, 224, 224);
 }

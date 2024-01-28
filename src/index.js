@@ -1,5 +1,8 @@
 import "./style.css";
 import "./reset.css";
+import githubIcon from "./icons/github.svg";
+import profileIcon from "./icons/smile.svg";
+import helpIcon from "./icons/help-circle.svg";
 
 import menuIcon from "./icons/menu.svg";
 import sideBar from "./components/sideBar";
@@ -7,13 +10,16 @@ import sideBar from "./components/sideBar";
 function component() {
   const data = [
     {
-      
+      "title": "Github",
+      "icon": githubIcon
     },
     {
-
+      "title": "Profile",
+      "icon": profileIcon
     },
     {
-
+      "title": "Help",
+      "icon": helpIcon
     }
   ];
 
